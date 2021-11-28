@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<caption>Rating All the Books I Read This Year</caption>
+	<tbody>
+		<tr>
+			<td>Title</td>
+			<td>Author</td>
+			<td>Rating</td>
+			<td>Comments</td>
+		</tr>
+		<tr>
+			<td>A is for Arsenic</td>
+			<td>Kathryn Harkup</td>
+			<td>★★★</td>
+			<td>Interesting but somewhat dry</td>
+		</tr>
+		<tr>
+			<td>Heaven Official&#39;s Blessing/天官赐福</td>
+			<td>墨香铜臭</td>
+			<td>★★★★★</td>
+			<td>Very long (one million word count) Chinese webnovel full of romance, engaging plot, plot twists, and humor.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Smoke Gets in Your Eyes</td>
+			<td>Caitlin Doughty</td>
+			<td>★★★★★</td>
+			<td>Funny memoir about the author&#39;s first foray into the funeral industry while working at a crematorium.</td>
+		</tr>
+		<tr>
+			<td>Crooked House</td>
+			<td>Agatha Christie</td>
+			<td>★★★★★</td>
+			<td>Cool plot twist</td>
+		</tr>
+		<tr>
+			<td>Silent Reading/默读</td>
+			<td>Priest</td>
+			<td>★★★★</td>
+			<td>Another very long Chinese crime thriller webnovel with a ton of suspense and somewhat convoluted plots</td>
+		</tr>
+		<tr>
+			<td>The Guest List</td>
+			<td>Lucy Foley</td>
+			<td>★★★★</td>
+			<td>I stayed up all night to read it, and the payoff was 99% worth it.</td>
+		</tr>
+		<tr>
+			<td>The Kaleidescope of Death</td>
+			<td>
+			<p>Xī Zǐx&ugrave;/西子绪</p>
+			</td>
+			<td>★★★</td>
+			<td>Very gory horror novel with a confusing and anticlimatic ending</td>
+		</tr>
+		<tr>
+			<td>Magpie Murders</td>
+			<td>Anthony Horowitz</td>
+			<td>★★★</td>
+			<td>A creative story within a story murder mystery, but ultimately the reveal was lame. Author also seems to have a specific view of gay people.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Moonflower Murders</td>
+			<td>Anthony Horowitz</td>
+			<td>★★★★</td>
+			<td>Although better plotted than its predecessor, the story within a story aspect was lacking. Author again has some fixed ideas about gay people.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>How to Fight Presidents</td>
+			<td>Daniel O&#39;Brien</td>
+			<td>★</td>
+			<td>It was just kinda bad and unfunny and inaccurate.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Jack and Lem</td>
+			<td>David Pitts</td>
+			<td>★★★★★</td>
+			<td>Although writing isn&#39;t the most engaging, as the owner of a JFK plate, this was interesting look into an important figure in his life not often mentioned in history.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Afterwords: Letters on the Death of Virginia Woolf</td>
+			<td>Sybil Oldfield</td>
+			<td>N/A</td>
+			<td>A collection of letters to Leonard Woolf and Vanessa Bell on Virginia Woolf&#39;s deaths; Interesting</td>
+		</tr>
+		<tr>
+			<td>Golden Stage/黄金台</td>
+			<td>苍梧宾白</td>
+			<td>★★★★</td>
+			<td>A court intrigue novel although the main focus is romance; I have since forgotten the plot</td>
+		</tr>
+		<tr>
+			<td>The Word is Murder</td>
+			<td>Anthony Horowitz</td>
+			<td>★★★★</td>
+			<td>Good murder mystery with a pretty good twist! Author&#39;s stereotyping of gay people appears again.</td>
+		</tr>
+		<tr>
+			<td>The Sentence is Death</td>
+			<td>Anthony Horowitz</td>
+			<td>★★★★</td>
+			<td>I already forgot the details but I remember being entertained! The author&#39;s bad representation of gay people strikes again.</td>
+		</tr>
+		<tr>
+			<td>A Line to Kill</td>
+			<td>Anthony Horowitz</td>
+			<td>★★★</td>
+			<td>I guessed the killer halfway through. No mention of gay people at all this time.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Thursday Murder Club</td>
+			<td>Richard Osman</td>
+			<td>★★★</td>
+			<td>A funny murder mystery novel whose ending I found weak.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Both Sides Now</td>
+			<td>Peyton Thomas</td>
+			<td>★</td>
+			<td>Hate read since I don&#39;t usually read YA but I dislike this author.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Life Among the Savages</td>
+			<td>Shirley Jackson</td>
+			<td>★★★★★</td>
+			<td>Just funny anecdotes from a horror author about raising her four children in 1940s Vermont.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>We Two: Victoria and Albert</td>
+			<td>Gillian Gill</td>
+			<td>★★★★</td>
+			<td>A really interesting book about the marriage of Queen Victoria and Prince Albert.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Fight the Landord, Fall in Love</td>
+			<td>苍梧宾白</td>
+			<td>★</td>
+			<td>Just didn&#39;t like it</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+
+</body>
+</html>
