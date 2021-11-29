@@ -9,12 +9,15 @@ td {font-family: monospace;}
   margin-right: auto;
 }
 }
- .topnav {
+ .navbar {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -23,13 +26,13 @@ td {font-family: monospace;}
   font-size: 17px;
 }
 
-.topnav a:hover {
+.navbar a:hover {
   background-color: #ffffff;
   color: black;
   font-family: monospace;
 }
 
-.topnav a.active {
+.navbar a.active {
   background-color: #F7CAC9;
   color: black;
   font-family: monospace;
@@ -37,7 +40,7 @@ td {font-family: monospace;}
 </style>
 </head>
 <body>
-<div class="topnav">
+<div class="navbar">
   <a href="https://itsdnoftheworld.github.io/mywebsite">Home</a>
   <a class="active" href="https://itsdnoftheworld.github.io/mywebsite/ratings.html">Book Reviews</a>
 </div>
