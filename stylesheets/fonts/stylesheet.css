@@ -1,7 +1,14 @@
 @font-face {
-    font-family: 'Coco';
-    src: url("stylesheets/fonts/Coco-Regular.woff2") format("woff2"),
-         url("stylesheets/fonts/Coco-Regular.woff") format("woff");
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
