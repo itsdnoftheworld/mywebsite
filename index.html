@@ -8,10 +8,14 @@
 .row {
   display: flex;
 }
-
 .column {
   flex: 50%;
 }
+background: hsla(1, 74%, 88%, 1);
+background: radial-gradient(circle, hsla(1, 74%, 88%, 0.7) 0%, hsla(276, 17%, 76%, 0.7) 50%, hsla(219, 41%, 70%, 0.7) 100%);
+background: -moz-radial-gradient(circle, hsla(1, 74%, 88%, 0.7) 0%, hsla(276, 17%, 76%, 0.7) 50%, hsla(219, 41%, 70%, 0.7) 100%);
+background: -webkit-radial-gradient(circle, hsla(1, 74%, 88%, 0.7) 0%, hsla(276, 17%, 76%, 0.7) 50%, hsla(219, 41%, 70%, 0.7) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7CAC9", endColorstr="#C5B9CD", GradientType=1 );
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -23,7 +27,7 @@ h1 {text-align: center;
     font-weight: normal;
     font-style: normal;
     font-size:60px;
-    color:#f28482
+    color:#92a8d1
 }
   p {font-family: 'Space Mono';
      font-size:30px;
