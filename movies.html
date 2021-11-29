@@ -5,10 +5,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Space+Mono&family=Yeseva+One&display=swap');
- h2 {font-family:Limelight}
+ h2 {font-family:Limelight;
+     text-align:center}
 </style>
 <body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="https://itsdnoftheworld.github.io/mywebsite/">Home</a>
+    <a href="https://itsdnoftheworld.github.io/mywebsite/gallery.html">Gallery</a>
+    <a href="https://itsdnoftheworld.github.io/mywebsite/ratings.html">Books</a>
+    <a href="https://itsdnoftheworld.github.io/mywebsite/movies.html">Movies</a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <h2>I watched nineteen (new to me) movies this year. Here's all of them summarized in 6 or less words</h2>
 <ol>
 <li>Promare (2019) - Supid; firefighter mecha anime</li>
@@ -31,4 +79,13 @@
 <li>The Apartment (1960) - Watched for Shirley MacLaine</li>
 <li>The Young Girls of Rochefort (1967) - Colorful French musical; serial killer subplot</li>
 </ol>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
 </body>
