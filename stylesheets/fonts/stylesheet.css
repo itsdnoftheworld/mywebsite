@@ -5,3 +5,20 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+
+@font-face {
+    font-family: 'TheSeasonsBold';
+    src: url("stylesheets/fonts/tsbold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSeasons';
+    src: url("stylesheets/fonts/tsreg.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
