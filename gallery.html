@@ -83,16 +83,15 @@
 	vertical-align: middle;
 }
 .hcg-slide-text {
-	color: #ffffff;
+	color: black;
 	font-size: 14px;
-	padding: 3px 5px;
+	padding: 5px;
 	position: absolute;
 	bottom: 0;
 	border-radius: 5px;
 	left: 50%;
 	text-align: center;
-	text-shadow: 0 0 2px #000;
-	background-color: rgba(255,255,255,0.30);
+    background-color: rgba(255,255,255,0.30);
 	display: inline-block;
 	transform: translate(-50%, -5px);
 }
@@ -137,7 +136,6 @@
 .hcg-slide-dot.dot-active {
 	background-color: #717171;
 }
-
 .animated { 
 	animation-name: fadeIn; 
 	animation-duration: 1s;
@@ -182,16 +180,17 @@
 </div>
 <script>
 (function(){
+//If you want to include more images, add the link name and URL of the image in the array list below.
 	let images_list = [
 		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/vax.jpg","name":"Got vaccinated","link":""},
 		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/cat2.jpg","name":"Adopted a kitten","link":""},
 		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/dc.jpg","name":"Moved to DC","link":""},
 		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/lisbon.jpg","name":"Visited family in Portugal","link":""},
-		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/nose.jpg","name":"Got a new nose!","link":""}
-		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/tree.jpg","name":"Relaxed on the Mall","link":""}
- 		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/newport.jpg","name":"Weekended in Newport","link":""}
-		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/cake.jpg","name":"Became an adult","link":""}
-		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/blood.jpg","name":"Gave blood for the first time","link":""}
+		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/nose.jpg","name":"Got a new nose (and chin)!","link":""},
+		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/tree.jpg","name":"Relaxed on the Mall","link":""},
+		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/newport.jpg","name":"Weekended in Newport","link":""},
+		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/cake.jpg","name":"Became an adult","link":""},
+		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/blood.jpg","name":"Gave blood for the first time","link":""},
 		{"url":"https://raw.githubusercontent.com/itsdnoftheworld/mywebsite/main/pictures/wendys.jpg","name":"Took a gap semester to take orders at Wendy's","link":""}
 	];
 
@@ -257,15 +256,6 @@
 		dots[i].addEventListener("click", dot_click, false);
 	}
 })();
-</script>
-<script>
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
 </script>
 </body>
 </html>
