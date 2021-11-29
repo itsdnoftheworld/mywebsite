@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Coco';
-    src: url(".stylesheets/fonts/Coco-Regular.woff2") format("woff2"),
-         url(".stylesheets/fonts/Coco-Regular.woff") format("woff");
+    src: url("../mywebsite/stylesheets/fonts/Coco-Regular.woff2") format("woff2"),
+         url("../mywebsite/stylesheets/fonts/Coco-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 
 @font-face {
     font-family: 'TheSeasonsBold';
-    src: url(".stylesheets/fonts/tsbold.woff") format("woff");
+    src: url("../mywebsite/stylesheets/fonts/tsbold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'TheSeasons';
-    src: url(".stylesheets/fonts/tsreg.woff") format("woff");
+    src: url("../mywebsite/stylesheets/fonts/tsreg.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'Vanity Wide';
-    src: url(".stylesheets/fonts/Vanity-BoldWide.woff2") format("woff2"),
-        url(".stylesheets/fonts/Vanity-BoldWide.woff") format("woff");
+    src: url("../mywebsite/stylesheets/fonts/Vanity-BoldWide.woff2") format("woff2"),
+        url("../mywebsite/stylesheets/fonts/Vanity-BoldWide.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -33,8 +33,8 @@
 
 @font-face {
     font-family: 'Vanity';
-    src: url('.stylesheets/fonts/Vanity-Bold.woff2') format('woff2'),
-        url('.stylesheets/fonts/Vanity-Bold.woff') format('woff');
+    src: url('../mywebsite/stylesheets/fonts/Vanity-Bold.woff2') format('woff2'),
+        url('../mywebsite/stylesheets/fonts/Vanity-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
