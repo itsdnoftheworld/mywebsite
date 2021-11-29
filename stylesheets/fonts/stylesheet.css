@@ -22,3 +22,21 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Vanity Wide';
+    src: url("stylesheets/fonts/Vanity-BoldWide.woff2") format("woff2"),
+        url("stylesheets/fonts/Vanity-BoldWide.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vanity';
+    src: url('stylesheets/fonts/Vanity-Bold.woff2') format('woff2'),
+        url('stylesheets/fonts/Vanity-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
