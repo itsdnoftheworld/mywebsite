@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 #hcg-slider-1 .hcg-slide-container {
-	width: 500px;
-	height: 700px;
+	width: auto;
+	height: auto;
 }
 .hcg-slider {
 	text-align: center;
@@ -103,6 +103,7 @@
 	animation-name: fadeIn;
 }
 </style>
+</style>
 </head>
 <body>
 <div id="hcg-slider-1" class="hcg-slider">
@@ -116,7 +117,6 @@
 	</div>
 	<a class="hcg-slide-prev" href="#">❮</a>
 	<a class="hcg-slide-next" href="#">❯</a>
-</div>
 </div>
 <div class="hcg-slide-dot-control"></div>
 </div>
@@ -191,6 +191,7 @@
 	for (let i = 0; i < dots.length; i++) {
 		dots[i].addEventListener("click", dot_click, false);
 	}
+})();
 </script>
 </body>
 </html>
