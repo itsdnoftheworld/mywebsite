@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Limelight&family=Space+Mono&family=Yeseva+One&display=swap');
-
 .overlay {
   height: 0%;
   width: 100%;
@@ -14,8 +13,11 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #F7CAC9;
-  background-color: rgba(247,202,201, 0.9);
+background: hsla(1, 74%, 88%, 1);
+background: radial-gradient(circle, hsla(1, 74%, 88%, 0.7) 0%, hsla(276, 17%, 76%, 0.7) 50%, hsla(219, 41%, 70%, 0.7) 100%);
+background: -moz-radial-gradient(circle, hsla(1, 74%, 88%, 0.7) 0%, hsla(276, 17%, 76%, 0.7) 50%, hsla(219, 41%, 70%, 0.7) 100%);
+background: -webkit-radial-gradient(circle, hsla(1, 74%, 88%, 0.7) 0%, hsla(276, 17%, 76%, 0.7) 50%, hsla(219, 41%, 70%, 0.7) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7CAC9", endColorstr="#C5B9CD", GradientType=1 );
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -36,6 +38,7 @@
   display: block;
   transition: 0.3s;
 }
+
 
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
