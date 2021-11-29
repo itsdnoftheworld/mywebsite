@@ -5,6 +5,56 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
 caption {font-family: TheSeasons;}
 td {font-family: TheSeasons;}
 .center {
@@ -13,6 +63,16 @@ td {font-family: TheSeasons;}
 </style>
 </head>
 <body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="https://itsdnoftheworld.github.io/mywebsite/">Home</a>
+    <a href="https://itsdnoftheworld.github.io/mywebsite/gallery.html">Gallery</a>
+    <a href="https://itsdnoftheworld.github.io/mywebsite/ratings.html">Books</a>
+    <a href="https://itsdnoftheworld.github.io/mywebsite/movies.html">Movies</a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <table class="center">
 <table border="1" cellpadding="1" cellspacing="1" style="width:500px">
 	<caption>Rating All the Books I Read This Year</caption>
@@ -154,8 +214,18 @@ td {font-family: TheSeasons;}
 	</tbody>
 </table>
 
+<p>I may have read more books this year but these are all I remember.</p>
 <p>&nbsp;</p>
 
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
 
 </body>
 </html>
