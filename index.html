@@ -4,67 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Space+Mono&family=Yeseva+One&display=swap');
-
-@font-face {
-    font-family: 'Coco';
-    src: url(".../mywebsite/stylesheets/fonts/Coco-Regular.woff2") format("woff2"),
-         url(".../mywebsite/stylesheets/fonts/Coco-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-.overlay {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-y: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-
 .row {
   display: flex;
+  
 }
 
 .column {
@@ -84,9 +26,12 @@ h1 {text-align: center;
     color:#f28482
 }
   p {font-family: 'Space Mono';
-     font-size:30px}
-  h2 {font-family: 'Yeseva One';
-      color: pink;}
+     font-size:30px;
+     text-align;center}
+  h2 {font-family: 'Limelight';
+  	text-align:center;
+      color:#84a59d;}
+body {text-align:center}
 
 .footer {
   position:fixed;
@@ -105,21 +50,9 @@ header {
 </style>
 </head>
 <body>
-
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="https://itsdnoftheworld.github.io/mywebsite/">Home</a>
-    <a href="https://itsdnoftheworld.github.io/mywebsite/gallery.html">Gallery</a>
-    <a href="https://itsdnoftheworld.github.io/mywebsite/ratings.html">Books</a>
-    <a href="https://itsdnoftheworld.github.io/mywebsite/movies.html">Movies</a>
-  </div>
-</div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<p><header>
-</header>
-
+<header>
 <h1>2021 - A Retrospective</h1>
+</header>
 <div class="row">
   <div class="column" style="background-color:white;">
     <h2>About</h2>
